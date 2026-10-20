@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Md Ehsan | Shopify developer and support engineering lead</title>
+<meta name="description" content="Senior software engineer and support engineering lead helping Shopify merchants with setup, local delivery and pickup, support, local SEO and custom development.">
+<link rel="icon" href="ehsan-photo.jpg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Md Ehsan | Shopify help, from the first question to the last mile">
+<meta property="og:description" content="Senior software engineer and support engineering lead helping Shopify merchants with setup, local delivery and pickup, support, local SEO and custom development.">
+<meta property="og:url" content="https://ehshan55.github.io/">
+<meta property="og:image" content="https://ehshan55.github.io/ehsan-photo.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&amp;display=swap">
+<style>
+body{margin:0}
+html{scroll-behavior:smooth}
+a{color:#13307F}a:hover{color:#000000}
+a:focus-visible{outline:3px solid #000000;outline-offset:3px}
+.btn{transition:translate .2s ease,box-shadow .2s ease}
+.btn:hover{translate:0 -2px;box-shadow:0 4px 0 rgba(0,0,0,.35)}
+.label{transition:rotate .35s ease,scale .35s ease}
+.label:hover{rotate:-1.5deg;scale:1.015}
+.tilt-a{rotate:-1.2deg}.tilt-b{rotate:.9deg}.tilt-c{rotate:-.5deg}
+@keyframes rise{from{opacity:0;translate:0 24px}to{opacity:1;translate:0 0}}
+@keyframes slap{0%{opacity:0;transform:translateY(-70px) rotate(-14deg) scale(1.08)}60%{opacity:1;transform:translateY(6px) rotate(-1deg) scale(.99)}100%{opacity:1;transform:rotate(-2deg)}}
+@keyframes pop{0%{opacity:0;transform:scale(.3) rotate(-25deg)}70%{opacity:1;transform:scale(1.08) rotate(10deg)}100%{opacity:1;transform:rotate(6deg)}}
+@keyframes thump{0%{opacity:0;transform:scale(2.4) rotate(-16deg)}65%{opacity:.92;transform:scale(.94) rotate(-8deg)}100%{opacity:.92;transform:rotate(-9deg)}}
+.load-1{animation:rise .7s cubic-bezier(.2,.7,.2,1) .05s backwards}
+.load-2{animation:rise .7s cubic-bezier(.2,.7,.2,1) .15s backwards}
+.load-3{animation:rise .7s cubic-bezier(.2,.7,.2,1) .25s backwards}
+.load-label{animation:slap .9s cubic-bezier(.2,.8,.2,1) .35s backwards}
+.load-sticker{animation:pop .6s cubic-bezier(.3,1.3,.5,1) 1s backwards}
+.load-stamp{animation:thump .45s cubic-bezier(.3,1.2,.5,1) 1.3s backwards}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes spin{to{transform:rotate(720deg)}}
+@keyframes tape{from{transform:translateX(0)}to{transform:translateX(-22%)}}
+@keyframes drive{from{left:0}to{left:calc(100% - 2.75rem)}}
+@keyframes reach{from{background:#FFFFFF;border-color:#BDBDBD;color:#000000}to{background:var(--accent);border-color:var(--accent);color:#FFFFFF}}
+@keyframes arrive{from{left:0}to{left:calc(100% - 6.25rem)}}
+.progress{display:none}
+@supports (animation-timeline: view()){
+.progress{display:block;animation:grow linear both;animation-timeline:scroll()}
+.ring{animation:spin linear both;animation-timeline:scroll()}
+.tape-track{animation:tape linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+.route{view-timeline:--route block}
+.route-fill{animation:grow linear both;animation-timeline:--route;animation-range:cover 18% cover 52%}
+.van{animation:drive linear both;animation-timeline:--route;animation-range:cover 18% cover 52%}
+.stop{animation:reach linear both;animation-timeline:--route}
+.stop-1{animation-range:cover 18% cover 20%}
+.stop-2{animation-range:cover 25% cover 27%}
+.stop-3{animation-range:cover 34% cover 36%}
+.stop-4{animation-range:cover 43% cover 45%}
+.van-arrive{animation:arrive linear both;animation-timeline:scroll();animation-range:calc(100% - 200px) 100%}
+}
+@keyframes growY{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+header[id],section[id]{scroll-margin-top:4.5rem}
+.route ol{flex-wrap:nowrap!important}
+.route li{flex:1 1 0!important}
+.stats{column-gap:1.5rem!important}
+.stats li{flex:1 1 9rem!important}
+.stats li div:first-child{font-size:clamp(2.5rem,5.5vw,4.75rem)!important}
+@media (max-width:48rem){
+.route ol{flex-direction:column!important}
+.route li{flex:none!important;margin-left:.875rem!important;border-top:0!important;border-left:4px solid #D4D4D4!important;padding:0 0 2.5rem 2.25rem!important}
+.route li:last-child{padding-bottom:.25rem!important}
+.route .stop{top:-.125rem!important;left:-1.125rem!important}
+.route-fill{top:0!important;bottom:0!important;left:.875rem!important;right:auto!important;width:4px!important;height:auto!important;transform-origin:50% 0!important}
+.van{display:none!important}
+}
+@supports (animation-timeline: view()){@media (max-width:48rem){
+.route{view-timeline-inset:45% 50%}
+.route-fill{animation-name:growY;animation-range:cover 0% cover 100%}
+.route .stop{animation-timeline:view(block 45% 50%);animation-range:cover 0% cover 100%}
+}}
+@media (max-width:40rem){.nav-link{display:none!important}.cta-row .btn{flex:1 1 100%}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div style="--accent: #13307F; --parcel: #C89B6D; font-family: 'Archivo', 'Helvetica Neue', Helvetica, sans-serif; color: #000000; background: #FFFFFF; font-size: 1rem; line-height: 1.5; overflow-x: clip">
+
+<nav aria-label="Main" style="position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, #C89B6D 88%, transparent); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 2px solid #000000; padding: 0 clamp(1.25rem, 4vw, 3rem)">
+<div style="max-width: 75rem; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.25rem 2rem; padding: 0.5rem 0">
+<a href="#top" style="display: inline-flex; align-items: center; gap: 0.625rem; min-height: 2.75rem; color: #000000; text-decoration: none; font-size: 1.1875rem; font-weight: 800; font-stretch: 125%; letter-spacing: -0.01em"><img src="ehsan-photo.jpg" alt="" style="display: block; width: 2.25rem; height: 2.25rem; box-sizing: border-box; border-radius: 50%; border: 2px solid #000000; object-fit: cover; background: #FFFFFF">Md Ehsan</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem">
+<a class="nav-link" href="#services" style="display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 0.75rem; color: #000000; text-decoration: none; font-weight: 600">Services</a>
+<a class="nav-link" href="#work" style="display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 0.75rem; color: #000000; text-decoration: none; font-weight: 600">Work</a>
+<a class="nav-link" href="#reviews" style="display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 0.75rem; color: #000000; text-decoration: none; font-weight: 600">Reviews</a>
+<a class="nav-link" href="#about" style="display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 0.75rem; color: #000000; text-decoration: none; font-weight: 600">About</a>
+<a class="btn" href="#contact" style="display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 1.125rem; margin-left: 0.5rem; box-sizing: border-box; background: #000000; color: #FFFFFF; border: 2px solid #000000; border-radius: 8px; text-decoration: none; font-weight: 700">Contact me</a>
+</div>
+</div>
+<div class="progress" aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: -2px; height: 3px; background: #13307F; transform-origin: 0 50%"></div>
+</nav>
+
+<header id="top" style="position: relative; background: #C89B6D; padding: clamp(2.5rem, 6vw, 5.5rem) clamp(1.25rem, 4vw, 3rem) clamp(4rem, 8vw, 6.5rem)">
+<svg aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: 0.3"><filter id="kraft-grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix></filter><rect width="100%" height="100%" filter="url(#kraft-grain)"></rect></svg>
+<div style="position: relative; max-width: 75rem; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: clamp(2.5rem, 5vw, 4rem)">
+
+<div style="flex: 1 1 30rem; min-width: 0; max-width: 44rem">
+<h1 class="load-1" style="margin: 0; font-size: clamp(2.4rem, 4.8vw, 4.375rem); font-weight: 800; font-stretch: 115%; line-height: 1.02; letter-spacing: -0.015em; text-wrap: balance">Shopify help, from the first question to the last mile.</h1>
+<p class="load-2" style="margin: 1.75rem 0 0; max-width: 34rem; font-size: clamp(1.0625rem, 1.4vw, 1.25rem); line-height: 1.55">I’m Md Ehsan, a senior software engineer and support engineering lead at Scrollengine. I help Shopify merchants and local businesses choose the right setup, get local delivery and pickup running, keep customers happy and get found online. When an off-the-shelf app won’t do, I build what you need.</p>
+<div class="load-3 cta-row" style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2.25rem">
+<a class="btn" href="https://www.linkedin.com/in/md-ehsan-17954b79/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; min-height: 3.25rem; padding: 0 1.5rem; box-sizing: border-box; background: #13307F; color: #FFFFFF; border: 2px solid #13307F; border-radius: 8px; text-decoration: none; font-size: 1.0625rem; font-weight: 700">Message me on LinkedIn</a>
+<a class="btn" href="#reviews" style="display: inline-flex; align-items: center; justify-content: center; min-height: 3.25rem; padding: 0 1.5rem; box-sizing: border-box; background: transparent; color: #000000; border: 2px solid #000000; border-radius: 8px; text-decoration: none; font-size: 1.0625rem; font-weight: 700">Read merchant reviews</a>
+</div>
+</div>
+
+<div style="position: relative; flex: 0 1 25rem; min-width: 0; display: flex; flex-direction: column">
+<div class="label load-label" style="background: #FFFFFF; color: #000000; border: 3px solid #000000; border-radius: 12px; transform: rotate(-2deg); overflow: hidden; box-shadow: 0 22px 34px -20px rgba(0,0,0,0.55)">
+<div style="display: flex; border-bottom: 3px solid #000000">
+<div style="flex: 1 1 0; min-width: 0; padding: 1rem 1.25rem; border-right: 3px solid #000000">
+<div style="font-size: 0.8125rem; font-weight: 700">From</div>
+<div style="margin-top: 0.25rem; font-size: 1.125rem; font-weight: 800; font-stretch: 110%">Md Ehsan</div>
+<div style="font-size: 0.9375rem">Senior software engineer</div>
+</div>
+<div style="flex: 0 0 auto; padding: 1rem 1.25rem">
+<div style="font-size: 0.8125rem; font-weight: 700">Service</div>
+<div style="margin-top: 0.25rem; font-size: 1.125rem; font-weight: 800; font-stretch: 110%">Freelance</div>
+</div>
+</div>
+<div style="padding: 1.125rem 1.25rem; border-bottom: 3px solid #000000">
+<div style="font-size: 0.8125rem; font-weight: 700">Ship to</div>
+<div style="margin-top: 0.375rem; font-size: clamp(1.75rem, 2.6vw, 2.25rem); font-weight: 800; font-stretch: 120%; line-height: 1.05; letter-spacing: -0.01em">Your business</div>
+</div>
+<div style="padding: 1.125rem 1.25rem; border-bottom: 3px solid #000000">
+<div style="font-size: 0.8125rem; font-weight: 700">Contents</div>
+<ul style="list-style: none; margin: 0.625rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem">
+<li style="display: flex; align-items: center; gap: 0.625rem; font-size: 1rem; font-weight: 500"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><rect x="1" y="1" width="16" height="16" rx="2"></rect><path d="M5 9.5l2.5 2.5L13 6.5"></path></svg>Pre-sales advice</li>
+<li style="display: flex; align-items: center; gap: 0.625rem; font-size: 1rem; font-weight: 500"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><rect x="1" y="1" width="16" height="16" rx="2"></rect><path d="M5 9.5l2.5 2.5L13 6.5"></path></svg>Shopify setup</li>
+<li style="display: flex; align-items: center; gap: 0.625rem; font-size: 1rem; font-weight: 500"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><rect x="1" y="1" width="16" height="16" rx="2"></rect><path d="M5 9.5l2.5 2.5L13 6.5"></path></svg>Onboarding and support</li>
+<li style="display: flex; align-items: center; gap: 0.625rem; font-size: 1rem; font-weight: 500"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><rect x="1" y="1" width="16" height="16" rx="2"></rect><path d="M5 9.5l2.5 2.5L13 6.5"></path></svg>Local SEO and listings</li>
+<li style="display: flex; align-items: center; gap: 0.625rem; font-size: 1rem; font-weight: 500"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><rect x="1" y="1" width="16" height="16" rx="2"></rect><path d="M5 9.5l2.5 2.5L13 6.5"></path></svg>Custom development</li>
+</ul>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1rem; padding: 0.875rem 1.25rem 1rem">
+<div aria-hidden="true" style="font-family: 'Libre Barcode 39 Text', monospace; font-size: 2.25rem; line-height: 1; white-space: nowrap">*MD-EHSAN*</div>
+<div class="load-stamp" style="flex: none; margin-left: auto; transform: rotate(-9deg); opacity: 0.92; color: #13307F; border: 3px solid #13307F; border-radius: 6px; box-shadow: inset 0 0 0 2px #FFFFFF, inset 0 0 0 3.5px #13307F; padding: 0.375rem 0.625rem; text-align: center; line-height: 1.15">
+<div role="img" aria-label="5 out of 5 stars" style="font-size: 0.8125rem; letter-spacing: 0.08em">★★★★★</div>
+<div style="font-size: 0.75rem; font-weight: 800; font-stretch: 112%">7 merchant reviews</div>
+</div>
+</div>
+</div>
+<div class="load-sticker" style="position: relative; order: -1; align-self: flex-end; z-index: 2; width: clamp(6.5rem, 11vw, 8.5rem); height: clamp(6.5rem, 11vw, 8.5rem); margin: 1.5rem 1.75rem 1.5rem 0; transform: rotate(6deg)">
+<svg class="ring" aria-hidden="true" viewBox="0 0 200 200" style="position: absolute; top: -1.375rem; left: -1.375rem; width: calc(100% + 2.75rem); height: calc(100% + 2.75rem); overflow: visible"><defs><path id="ring-path" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"></path></defs><text fill="#000000" style="font-family: 'Archivo', sans-serif; font-size: 14px; font-weight: 800; letter-spacing: 5.5px"><textPath href="#ring-path">MD EHSAN ✦ SHOPIFY ✦ REACT ✦ SUPPORT ✦ </textPath></text></svg>
+<img src="ehsan-photo.jpg" alt="Md Ehsan" style="position: relative; display: block; width: 100%; height: 100%; box-sizing: border-box; border-radius: 50%; border: 3px solid #000000; object-fit: cover; background: #FFFFFF">
+</div>
+</div>
+
+</div>
+</header>
+
+<div aria-hidden="true" style="overflow: clip; background: linear-gradient(to bottom, #C89B6D 50%, #000000 50%); padding: 1.5rem 0">
+<div style="transform: rotate(-1.5deg); margin: 0 -2rem; background: #13307F; color: #FFFFFF; padding: 0.875rem 0; overflow: clip; border-top: 2px solid rgba(255,255,255,0.18); border-bottom: 2px solid rgba(0,0,0,0.3)">
+<div class="tape-track" style="display: flex; width: max-content">
+<div style="display: flex; align-items: center; gap: 1.5rem; padding-right: 1.5rem; white-space: nowrap; font-size: clamp(1rem, 1.6vw, 1.375rem); font-weight: 800; font-stretch: 118%">
+<span>Shopify setup</span><span>✦</span><span>Local delivery</span><span>✦</span><span>Store pickup</span><span>✦</span><span>React</span><span>✦</span><span>Next.js</span><span>✦</span><span>Node.js</span><span>✦</span><span>Onboarding</span><span>✦</span><span>Local SEO</span><span>✦</span><span>Custom development</span><span>✦</span>
+</div>
+<div style="display: flex; align-items: center; gap: 1.5rem; padding-right: 1.5rem; white-space: nowrap; font-size: clamp(1rem, 1.6vw, 1.375rem); font-weight: 800; font-stretch: 118%">
+<span>Shopify setup</span><span>✦</span><span>Local delivery</span><span>✦</span><span>Store pickup</span><span>✦</span><span>React</span><span>✦</span><span>Next.js</span><span>✦</span><span>Node.js</span><span>✦</span><span>Onboarding</span><span>✦</span><span>Local SEO</span><span>✦</span><span>Custom development</span><span>✦</span>
+</div>
+</div>
+</div>
+</div>
+
+<section aria-label="At a glance" style="background: #000000; color: #FFFFFF; padding: clamp(2rem, 4vw, 3rem) clamp(1.25rem, 4vw, 3rem) clamp(3rem, 6vw, 4.5rem)">
+<ul class="stats" style="list-style: none; margin: 0 auto; padding: 0; max-width: 75rem; display: flex; flex-wrap: wrap; gap: 2rem 3rem">
+<li style="flex: 1 1 13rem; min-width: 0; border-top: 2px solid #FFFFFF; padding-top: 1.125rem">
+<div style="font-size: clamp(3rem, 5.5vw, 4.75rem); font-weight: 800; font-stretch: 125%; line-height: 1; letter-spacing: -0.02em; color: #C89B6D">7</div>
+<div style="margin-top: 0.75rem; max-width: 16rem; font-size: 1rem; line-height: 1.45; color: #E0E0E0">five-star reviews that mention me by name</div>
+</li>
+<li style="flex: 1 1 13rem; min-width: 0; border-top: 2px solid #FFFFFF; padding-top: 1.125rem">
+<div style="font-size: clamp(3rem, 5.5vw, 4.75rem); font-weight: 800; font-stretch: 125%; line-height: 1; letter-spacing: -0.02em; color: #C89B6D">4</div>
+<div style="margin-top: 0.75rem; max-width: 16rem; font-size: 1rem; line-height: 1.45; color: #E0E0E0">countries where merchants have reviewed my work</div>
+</li>
+<li style="flex: 1 1 13rem; min-width: 0; border-top: 2px solid #FFFFFF; padding-top: 1.125rem">
+<div style="font-size: clamp(3rem, 5.5vw, 4.75rem); font-weight: 800; font-stretch: 125%; line-height: 1; letter-spacing: -0.02em; color: #C89B6D">3,360</div>
+<div style="margin-top: 0.75rem; max-width: 16rem; font-size: 1rem; line-height: 1.45; color: #E0E0E0">GitHub contributions in 2025</div>
+</li>
+<li style="flex: 1 1 13rem; min-width: 0; border-top: 2px solid #FFFFFF; padding-top: 1.125rem">
+<div style="font-size: clamp(3rem, 5.5vw, 4.75rem); font-weight: 800; font-stretch: 125%; line-height: 1; letter-spacing: -0.02em; color: #C89B6D">2017</div>
+<div style="margin-top: 0.75rem; max-width: 16rem; font-size: 1rem; line-height: 1.45; color: #E0E0E0">the year I started building web and mobile apps</div>
+</li>
+</ul>
+</section>
+
+<main>
+<section id="services" aria-labelledby="services-title" style="padding: clamp(3.5rem, 7vw, 5.5rem) clamp(1.25rem, 4vw, 3rem)">
+<div style="max-width: 75rem; margin: 0 auto">
+<h2 id="services-title" style="margin: 0; font-size: clamp(1.875rem, 3.2vw, 2.75rem); font-weight: 800; font-stretch: 112%; line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance">What I can help with</h2>
+<p style="margin: 1rem 0 0; max-width: 36rem; font-size: 1.0625rem; line-height: 1.6; color: #474747">Hire me for one piece or the whole journey, from choosing a setup to keeping customers happy after launch.</p>
+<div style="margin-top: 2.5rem; border-top: 2px solid #000000">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 2rem; padding: 1.5rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0; display: flex; align-items: center; gap: 1rem">
+<span aria-hidden="true" style="flex: none; width: 3rem; height: 3rem; box-sizing: border-box; border: 2px solid #000000; border-radius: 50%; background: #C89B6D; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3 20.5l1.4-5.2A8.5 8.5 0 1 1 21 11.5z"></path><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01"></path></svg></span>
+<h3 style="margin: 0; font-size: 1.375rem; font-weight: 800; font-stretch: 108%; line-height: 1.25">Pre-sales and planning</h3>
+</div>
+<p style="flex: 2 1 22rem; min-width: 0; max-width: 42rem; margin: 0; font-size: 1.0625rem; line-height: 1.6">Tell me how you sell, deliver and serve customers. I’ll recommend the setup and plan that fit, so you pay only for what you need.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 2rem; padding: 1.5rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0; display: flex; align-items: center; gap: 1rem">
+<span aria-hidden="true" style="flex: none; width: 3rem; height: 3rem; box-sizing: border-box; border: 2px solid #000000; border-radius: 50%; background: #C89B6D; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12H6L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg></span>
+<h3 style="margin: 0; font-size: 1.375rem; font-weight: 800; font-stretch: 108%; line-height: 1.25">Shopify setup</h3>
+</div>
+<p style="flex: 2 1 22rem; min-width: 0; max-width: 42rem; margin: 0; font-size: 1.0625rem; line-height: 1.6">Local delivery, store pickup and order management, configured around the way your business runs.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 2rem; padding: 1.5rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0; display: flex; align-items: center; gap: 1rem">
+<span aria-hidden="true" style="flex: none; width: 3rem; height: 3rem; box-sizing: border-box; border: 2px solid #000000; border-radius: 50%; background: #C89B6D; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="3.5"></circle><path d="M5.6 5.6l3.9 3.9M14.5 14.5l3.9 3.9M18.4 5.6l-3.9 3.9M9.5 14.5l-3.9 3.9"></path></svg></span>
+<h3 style="margin: 0; font-size: 1.375rem; font-weight: 800; font-stretch: 108%; line-height: 1.25">Onboarding and support</h3>
+</div>
+<p style="flex: 2 1 22rem; min-width: 0; max-width: 42rem; margin: 0; font-size: 1.0625rem; line-height: 1.6">Hands-on help getting your store live, and fast, thorough fixes when something isn’t working.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 2rem; padding: 1.5rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0; display: flex; align-items: center; gap: 1rem">
+<span aria-hidden="true" style="flex: none; width: 3rem; height: 3rem; box-sizing: border-box; border: 2px solid #000000; border-radius: 50%; background: #C89B6D; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg></span>
+<h3 style="margin: 0; font-size: 1.375rem; font-weight: 800; font-stretch: 108%; line-height: 1.25">Web presence and local SEO</h3>
+</div>
+<p style="flex: 2 1 22rem; min-width: 0; max-width: 42rem; margin: 0; font-size: 1.0625rem; line-height: 1.6">Your website, Google Business Profile and business listings kept accurate and consistent, so local customers can find you.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 2rem; padding: 1.5rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0; display: flex; align-items: center; gap: 1rem">
+<span aria-hidden="true" style="flex: none; width: 3rem; height: 3rem; box-sizing: border-box; border: 2px solid #000000; border-radius: 50%; background: #C89B6D; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4.5l-3 15"></path></svg></span>
+<h3 style="margin: 0; font-size: 1.375rem; font-weight: 800; font-stretch: 108%; line-height: 1.25">Custom development</h3>
+</div>
+<p style="flex: 2 1 22rem; min-width: 0; max-width: 42rem; margin: 0; font-size: 1.0625rem; line-height: 1.6">When an off-the-shelf app doesn’t fit, I build what you need, from new store features to full web tools in React, Next.js and Node.js.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="process" aria-labelledby="process-title" style="padding: clamp(3.5rem, 7vw, 5.5rem) clamp(1.25rem, 4vw, 3rem)">
+<div style="max-width: 75rem; margin: 0 auto">
+<h2 id="process-title" style="margin: 0; font-size: clamp(1.875rem, 3.2vw, 2.75rem); font-weight: 800; font-stretch: 112%; line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance">How a project moves</h2>
+<p style="margin: 1rem 0 0; max-width: 36rem; font-size: 1.0625rem; line-height: 1.6; color: #474747">The same route for every project, so you always know what happens next.</p>
+<div class="route" style="position: relative; isolation: isolate; margin-top: 4rem">
+<div class="route-fill" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; z-index: 1; height: 4px; background: #13307F; transform-origin: 0 50%"></div>
+<div class="van" aria-hidden="true" style="position: absolute; top: -1.5rem; left: calc(100% - 2.75rem); z-index: 3; width: 2.75rem; height: 1.625rem; color: #13307F"><svg width="44" height="26" viewBox="0 0 44 26" fill="none" style="display: block; width: 100%; height: 100%"><rect x="1" y="2" width="26" height="17" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="2"></rect><rect x="5" y="7" width="18" height="4" rx="1" fill="currentColor"></rect><path d="M27 7h8l6 6v6H27z" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path><path d="M30 9.5h4.2l3.3 3.5H30z" fill="#000000"></path><circle cx="9" cy="21" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="2"></circle><circle cx="34" cy="21" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="2"></circle></svg></div>
+<ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; row-gap: 3rem">
+<li style="flex: 1 1 14rem; min-width: 0; position: relative; box-sizing: border-box; border-top: 4px solid #D4D4D4; padding: 2rem 1.5rem 0 0">
+<span class="stop stop-1" aria-hidden="true" style="position: absolute; top: -1.125rem; left: 0; z-index: 2; width: 2rem; height: 2rem; box-sizing: border-box; border: 4px solid #13307F; border-radius: 50%; background: #13307F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 0.875rem; font-weight: 800; line-height: 1">1</span>
+<h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; font-stretch: 108%">Understand</h3>
+<p style="margin: 0.5rem 0 0; font-size: 1rem; line-height: 1.6">We talk through what you sell, how orders reach your customers and what’s slowing you down.</p>
+</li>
+<li style="flex: 1 1 14rem; min-width: 0; position: relative; box-sizing: border-box; border-top: 4px solid #D4D4D4; padding: 2rem 1.5rem 0 0">
+<span class="stop stop-2" aria-hidden="true" style="position: absolute; top: -1.125rem; left: 0; z-index: 2; width: 2rem; height: 2rem; box-sizing: border-box; border: 4px solid #13307F; border-radius: 50%; background: #13307F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 0.875rem; font-weight: 800; line-height: 1">2</span>
+<h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; font-stretch: 108%">Recommend</h3>
+<p style="margin: 0.5rem 0 0; font-size: 1rem; line-height: 1.6">You get a clear plan covering the setup, the apps and the cost, before anything changes.</p>
+</li>
+<li style="flex: 1 1 14rem; min-width: 0; position: relative; box-sizing: border-box; border-top: 4px solid #D4D4D4; padding: 2rem 1.5rem 0 0">
+<span class="stop stop-3" aria-hidden="true" style="position: absolute; top: -1.125rem; left: 0; z-index: 2; width: 2rem; height: 2rem; box-sizing: border-box; border: 4px solid #13307F; border-radius: 50%; background: #13307F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 0.875rem; font-weight: 800; line-height: 1">3</span>
+<h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; font-stretch: 108%">Set up</h3>
+<p style="margin: 0.5rem 0 0; font-size: 1rem; line-height: 1.6">I configure your store, build anything custom and walk your team through it.</p>
+</li>
+<li style="flex: 1 1 14rem; min-width: 0; position: relative; box-sizing: border-box; border-top: 4px solid #D4D4D4; padding: 2rem 1.5rem 0 0">
+<span class="stop stop-4" aria-hidden="true" style="position: absolute; top: -1.125rem; left: 0; z-index: 2; width: 2rem; height: 2rem; box-sizing: border-box; border: 4px solid #13307F; border-radius: 50%; background: #13307F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 0.875rem; font-weight: 800; line-height: 1">4</span>
+<h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; font-stretch: 108%">Support and grow</h3>
+<p style="margin: 0.5rem 0 0; font-size: 1rem; line-height: 1.6">I stay on for questions and fixes, and help more customers find you online.</p>
+</li>
+</ol>
+</div>
+</div>
+</section>
+
+<section id="work" aria-labelledby="work-title" style="padding: clamp(3.5rem, 7vw, 5.5rem) clamp(1.25rem, 4vw, 3rem)">
+<div style="max-width: 75rem; margin: 0 auto">
+<h2 id="work-title" style="margin: 0; font-size: clamp(1.875rem, 3.2vw, 2.75rem); font-weight: 800; font-stretch: 112%; line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance">Selected work</h2>
+<p style="margin: 1rem 0 0; max-width: 36rem; font-size: 1.0625rem; line-height: 1.6; color: #474747">Recent work from my role at Scrollengine.</p>
+<div style="margin-top: 2.5rem; border-top: 2px solid #000000">
+<article style="display: flex; flex-wrap: wrap; gap: 1rem 3rem; padding: 2rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0">
+<h3 style="margin: 0; font-size: clamp(1.375rem, 2vw, 1.75rem); font-weight: 800; font-stretch: 110%; line-height: 1.15; text-wrap: balance">Onboarding and support for a Shopify delivery app</h3>
+<p style="margin: 0.625rem 0 0; font-size: 0.9375rem; color: #474747">Pre-sales, onboarding, support engineering, Shopify</p>
+</div>
+<div style="flex: 2 1 24rem; min-width: 0; max-width: 42rem">
+<p style="margin: 0; font-size: 1.0625rem; line-height: 1.6">I lead support engineering for SE - Local Delivery &amp; store pickup, Scrollengine’s Shopify app for local delivery, store pickup and order management. I answer merchants’ questions before they sign up, recommend the right plan, get their stores onboarded and adjust the app when a store needs something specific.</p>
+<p style="margin: 0.875rem 0 0; font-size: 1.0625rem; line-height: 1.6"><strong style="font-weight: 700">Result:</strong> Seven five-star reviews on the Shopify App Store mention me by name.</p>
+<a href="https://apps.shopify.com/local-delivery-store-pickup/reviews" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; min-height: 2.75rem; margin-top: 0.5rem; color: #13307F; font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.2em">Read the app’s reviews on the Shopify App Store</a>
+</div>
+</article>
+<article style="display: flex; flex-wrap: wrap; gap: 1rem 3rem; padding: 2rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0">
+<h3 style="margin: 0; font-size: clamp(1.375rem, 2vw, 1.75rem); font-weight: 800; font-stretch: 110%; line-height: 1.15; text-wrap: balance">Frontend and Shopify app engineering</h3>
+<p style="margin: 0.625rem 0 0; font-size: 0.9375rem; color: #474747">React, Next.js, Node.js, Shopify apps</p>
+</div>
+<div style="flex: 2 1 24rem; min-width: 0; max-width: 42rem">
+<p style="margin: 0; font-size: 1.0625rem; line-height: 1.6">As frontend lead at Scrollengine I architect custom Shopify solutions and contribute across 11+ production repositories.</p>
+<p style="margin: 0.875rem 0 0; font-size: 1.0625rem; line-height: 1.6">My GitHub shows 259 commits and 126 pull requests in December 2025 alone.</p>
+<a href="https://github.com/Ehshan55" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; min-height: 2.75rem; margin-top: 0.5rem; color: #13307F; font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.2em">See my GitHub profile</a>
+</div>
+</article>
+<article style="display: flex; flex-wrap: wrap; gap: 1rem 3rem; padding: 2rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0">
+<h3 style="margin: 0; font-size: clamp(1.375rem, 2vw, 1.75rem); font-weight: 800; font-stretch: 110%; line-height: 1.15; text-wrap: balance">Web presence and business listings</h3>
+<p style="margin: 0.625rem 0 0; font-size: 0.9375rem; color: #474747">Local SEO, Google Business Profile</p>
+</div>
+<div style="flex: 2 1 24rem; min-width: 0; max-width: 42rem">
+<p style="margin: 0; font-size: 1.0625rem; line-height: 1.6">I’m responsible for Scrollengine’s web presence: the company website, its Google Business Profile and its online business listings.</p>
+<a href="https://scrollengine.com/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; min-height: 2.75rem; margin-top: 0.5rem; color: #13307F; font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.2em">Visit scrollengine.com</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<section id="reviews" aria-labelledby="reviews-title" style="background: #000000; color: #FFFFFF; padding: clamp(3.5rem, 7vw, 5.5rem) clamp(1.25rem, 4vw, 3rem)">
+<div style="max-width: 75rem; margin: 0 auto">
+<h2 id="reviews-title" style="margin: 0; font-size: clamp(1.875rem, 3.2vw, 2.75rem); font-weight: 800; font-stretch: 112%; line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance; color: #FFFFFF">What merchants say</h2>
+<p style="margin: 1rem 0 0; max-width: 38rem; font-size: 1.0625rem; line-height: 1.6; color: #D9D9D9">Merchants in the United States, Canada, New Zealand and Uganda reviewed SE - Local Delivery &amp; store pickup on the Shopify App Store. All seven reviews that mention me by name gave five stars.</p>
+<figure style="margin: 3rem 0 0; max-width: 58rem">
+<div aria-hidden="true" style="height: 3.5rem; font-size: 6.5rem; line-height: 0.85; font-weight: 800; color: #C89B6D">“</div>
+<blockquote style="margin: 0; font-size: clamp(1.375rem, 2.4vw, 2rem); font-weight: 600; font-stretch: 104%; line-height: 1.35; letter-spacing: -0.005em; text-wrap: pretty; color: #FFFFFF">Ehsan was extremely helpful and knowledgeable throughout the whole process. He took the time to understand our specific business needs and made the necessary adjustments to the app to fit our use case and requirements. He was very responsive, patient, and made sure everything worked the way we needed.</blockquote>
+<figcaption style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.75rem; margin-top: 1.25rem; font-size: 1rem; color: #D9D9D9"><span><strong style="font-weight: 700; color: #FFFFFF">Namaste Indian Supermarkets</strong>, New Zealand, September 2026</span><span role="img" aria-label="5 out of 5 stars" style="color: #C89B6D; letter-spacing: 0.08em">★★★★★</span></figcaption>
+</figure>
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 3rem">
+<figure class="tilt-a" style="flex: 1 1 18rem; min-width: 0; margin: 0; padding: 1.75rem; box-sizing: border-box; background: #FFFFFF; color: #000000; border-radius: 12px; display: flex; flex-direction: column; gap: 1rem">
+<div role="img" aria-label="5 out of 5 stars" style="font-size: 1rem; letter-spacing: 0.08em; color: #13307F">★★★★★</div>
+<blockquote style="flex: 1 1 auto; margin: 0; font-size: 1.125rem; line-height: 1.55; font-weight: 500">“Great app and great support. Ehsan was really helpful in getting us on board. Thanks.”</blockquote>
+<figcaption style="font-size: 0.9375rem; color: #474747"><strong style="font-weight: 700; color: #000000">Fraser Stop N Go</strong>, Canada, October 2026</figcaption>
+</figure>
+<figure class="tilt-b" style="flex: 1 1 18rem; min-width: 0; margin: 0; padding: 1.75rem; box-sizing: border-box; background: #FFFFFF; color: #000000; border-radius: 12px; display: flex; flex-direction: column; gap: 1rem">
+<div role="img" aria-label="5 out of 5 stars" style="font-size: 1rem; letter-spacing: 0.08em; color: #13307F">★★★★★</div>
+<blockquote style="flex: 1 1 auto; margin: 0; font-size: 1.125rem; line-height: 1.55; font-weight: 500">“Ehsan was the person in charge of making our life wayyy easier!! He was amazing at solving our problems and guiding us through how to do things. He is the best!!”</blockquote>
+<figcaption style="font-size: 0.9375rem; color: #474747"><strong style="font-weight: 700; color: #000000">Table de Flora</strong>, Uganda, September 2026</figcaption>
+</figure>
+<figure class="tilt-c" style="flex: 1 1 18rem; min-width: 0; margin: 0; padding: 1.75rem; box-sizing: border-box; background: #FFFFFF; color: #000000; border-radius: 12px; display: flex; flex-direction: column; gap: 1rem">
+<div role="img" aria-label="5 out of 5 stars" style="font-size: 1rem; letter-spacing: 0.08em; color: #13307F">★★★★★</div>
+<blockquote style="flex: 1 1 auto; margin: 0; font-size: 1.125rem; line-height: 1.55; font-weight: 500">“I was having trouble figuring out how to do certain things on the app, and Ehsan has been incredibly helpful. He has been super thorough with his guidance, and I appreciate the level of customer service from the people at Scroll Engine!”</blockquote>
+<figcaption style="font-size: 0.9375rem; color: #474747"><strong style="font-weight: 700; color: #000000">Flowers by Gabrielle</strong>, United States, August 2026</figcaption>
+</figure>
+<figure class="tilt-b" style="flex: 1 1 18rem; min-width: 0; margin: 0; padding: 1.75rem; box-sizing: border-box; background: #FFFFFF; color: #000000; border-radius: 12px; display: flex; flex-direction: column; gap: 1rem">
+<div role="img" aria-label="5 out of 5 stars" style="font-size: 1rem; letter-spacing: 0.08em; color: #13307F">★★★★★</div>
+<blockquote style="flex: 1 1 auto; margin: 0; font-size: 1.125rem; line-height: 1.55; font-weight: 500">“Md Ehsan was very helpful and took us through the problem and helped us fix the problem. It’s a 10/10 support. Highly recommended.”</blockquote>
+<figcaption style="font-size: 0.9375rem; color: #474747"><strong style="font-weight: 700; color: #000000">Doko Masala</strong>, United States, August 2026</figcaption>
+</figure>
+<figure class="tilt-c" style="flex: 1 1 18rem; min-width: 0; margin: 0; padding: 1.75rem; box-sizing: border-box; background: #FFFFFF; color: #000000; border-radius: 12px; display: flex; flex-direction: column; gap: 1rem">
+<div role="img" aria-label="5 out of 5 stars" style="font-size: 1rem; letter-spacing: 0.08em; color: #13307F">★★★★★</div>
+<blockquote style="flex: 1 1 auto; margin: 0; font-size: 1.125rem; line-height: 1.55; font-weight: 500">“Ehsan was fantastic with helping us getting things fixed and on our online store.”</blockquote>
+<figcaption style="font-size: 0.9375rem; color: #474747"><strong style="font-weight: 700; color: #000000">The Abiding Vine Co.</strong>, United States, July 2026</figcaption>
+</figure>
+<figure class="tilt-a" style="flex: 1 1 18rem; min-width: 0; margin: 0; padding: 1.75rem; box-sizing: border-box; background: #FFFFFF; color: #000000; border-radius: 12px; display: flex; flex-direction: column; gap: 1rem">
+<div role="img" aria-label="5 out of 5 stars" style="font-size: 1rem; letter-spacing: 0.08em; color: #13307F">★★★★★</div>
+<blockquote style="flex: 1 1 auto; margin: 0; font-size: 1.125rem; line-height: 1.55; font-weight: 500">“Ehsan was patient, knowledgeable, and incredibly responsive throughout the entire process.”</blockquote>
+<figcaption style="font-size: 0.9375rem; color: #474747"><strong style="font-weight: 700; color: #000000">USA Party Store</strong>, United States, May 2026</figcaption>
+</figure>
+</div>
+<a href="https://apps.shopify.com/local-delivery-store-pickup/reviews" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; min-height: 2.75rem; margin-top: 2rem; color: #C89B6D; font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.2em">Read all reviews on the Shopify App Store</a>
+</div>
+</section>
+
+<section id="about" aria-labelledby="about-title" style="padding: clamp(3.5rem, 7vw, 5.5rem) clamp(1.25rem, 4vw, 3rem)">
+<div style="max-width: 75rem; margin: 0 auto">
+<h2 id="about-title" style="margin: 0; font-size: clamp(1.875rem, 3.2vw, 2.75rem); font-weight: 800; font-stretch: 112%; line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance">About me</h2>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2.5rem 3.5rem; margin-top: 2.5rem">
+<img src="ehsan-photo.jpg" alt="" style="flex: none; display: block; width: 11rem; height: 11rem; box-sizing: border-box; border-radius: 50%; border: 3px solid #000000; object-fit: cover; background: #FFFFFF; box-shadow: 0.625rem 0.625rem 0 #C89B6D">
+<div style="flex: 1 1 24rem; min-width: 0; max-width: 42rem">
+<p style="margin: 0; font-size: 1.125rem; line-height: 1.6">I’m Md Ehsan, a senior software engineer based in West Bengal, India. At Scrollengine I lead frontend and support engineering for a Shopify app that handles local delivery and store pickup, and I answer merchants’ questions before they sign up.</p>
+<p style="margin: 1rem 0 0; font-size: 1.125rem; line-height: 1.6">Before that I spent four years at Digirex Technologies on frontend engineering for web applications and design systems, mostly in React. I started out in 2017 as a cross-platform web and app developer.</p>
+<p style="margin: 1rem 0 0; font-size: 1.125rem; line-height: 1.6">For freelance clients I handle the whole journey: I learn how your business runs, recommend what fits, build or set it up properly and stay around after launch.</p>
+<p style="margin: 1rem 0 0; font-size: 1rem; line-height: 1.6; color: #474747">Tools I work with: Shopify, React, Next.js, Node.js, JavaScript, AngularJS, REST APIs and Google Business Profile.</p>
+<h3 style="margin: 2.5rem 0 0; font-size: 1.25rem; font-weight: 800; font-stretch: 108%">Experience and education</h3>
+<ul style="list-style: none; margin: 1rem 0 0; padding: 0; border-top: 2px solid #000000">
+<li style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1.5rem; padding: 1rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0">
+<div style="font-size: 1.0625rem; font-weight: 700">Senior Software Developer, Scrollengine Labs</div>
+<div style="margin-top: 0.125rem; font-size: 0.9375rem; color: #474747">Frontend lead and support engineering lead</div>
+</div>
+<div style="flex: 0 0 auto; font-size: 1rem; color: #474747; font-variant-numeric: tabular-nums">May 2025 – present</div>
+</li>
+<li style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1.5rem; padding: 1rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0">
+<div style="font-size: 1.0625rem; font-weight: 700">Senior Software Development Engineer, Digirex Technologies</div>
+<div style="margin-top: 0.125rem; font-size: 0.9375rem; color: #474747">Joined as Junior Software Engineer in Bengaluru, Jun 2021 – Dec 2022</div>
+</div>
+<div style="flex: 0 0 auto; font-size: 1rem; color: #474747; font-variant-numeric: tabular-nums">Jun 2021 – May 2025</div>
+</li>
+<li style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1.5rem; padding: 1rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0; font-size: 1.0625rem; font-weight: 700">Cross-Platform Web and App Developer, Wityliti Automation and Solutions</div>
+<div style="flex: 0 0 auto; font-size: 1rem; color: #474747; font-variant-numeric: tabular-nums">Mar 2017 – Mar 2018</div>
+</li>
+<li style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1.5rem; padding: 1rem 0; border-bottom: 2px solid #000000">
+<div style="flex: 1 1 18rem; min-width: 0; font-size: 1.0625rem; font-weight: 700">Bachelor of Computer Applications (BCA), Asansol Engineering College</div>
+<div style="flex: 0 0 auto; font-size: 1rem; color: #474747; font-variant-numeric: tabular-nums">2014 – 2017</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<section id="contact" aria-labelledby="contact-title" style="position: relative; background: #C89B6D; padding: clamp(3.5rem, 8vw, 6.5rem) clamp(1.25rem, 4vw, 3rem) 1.5rem">
+<svg aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: 0.3"><rect width="100%" height="100%" filter="url(#kraft-grain)"></rect></svg>
+<div style="position: relative; max-width: 75rem; margin: 0 auto">
+<h2 id="contact-title" style="margin: 0; max-width: 22ch; font-size: clamp(2rem, 4.4vw, 3.75rem); font-weight: 800; font-stretch: 115%; line-height: 1.05; letter-spacing: -0.015em; text-wrap: balance">Got a Shopify store to set up, fix or grow?</h2>
+<p style="margin: 1.25rem 0 0; max-width: 34rem; font-size: clamp(1.0625rem, 1.4vw, 1.25rem); line-height: 1.55">Tell me what you sell and how you deliver. I’ll reply with what it would take.</p>
+<div class="cta-row" style="display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; margin-top: 2rem">
+<a class="btn" href="mailto:ahshan55@gmail.com" style="display: inline-flex; align-items: center; justify-content: center; min-height: 3.25rem; padding: 0 1.5rem; box-sizing: border-box; background: #13307F; color: #FFFFFF; border: 2px solid #13307F; border-radius: 8px; text-decoration: none; font-size: 1.0625rem; font-weight: 700">Email ahshan55@gmail.com</a>
+<a class="btn" href="https://www.linkedin.com/in/md-ehsan-17954b79/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; min-height: 3.25rem; padding: 0 1.5rem; box-sizing: border-box; background: transparent; color: #000000; border: 2px solid #000000; border-radius: 8px; text-decoration: none; font-size: 1.0625rem; font-weight: 700">Message me on LinkedIn</a>
+</div>
+<div aria-hidden="true" style="position: relative; max-width: 36rem; height: 3.75rem; margin-top: 3rem">
+<div style="position: absolute; left: 0; right: 1.75rem; bottom: 1.25rem; border-top: 3px dashed #000000"></div>
+<div class="van-arrive" style="position: absolute; bottom: calc(1.25rem + 3px); left: calc(100% - 6.25rem); width: 2.75rem; height: 1.625rem; color: #13307F"><svg width="44" height="26" viewBox="0 0 44 26" fill="none" style="display: block; width: 100%; height: 100%"><rect x="1" y="2" width="26" height="17" rx="2" fill="#FFFFFF" stroke="#000000" stroke-width="2"></rect><rect x="5" y="7" width="18" height="4" rx="1" fill="currentColor"></rect><path d="M27 7h8l6 6v6H27z" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path><path d="M30 9.5h4.2l3.3 3.5H30z" fill="#000000"></path><circle cx="9" cy="21" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="2"></circle><circle cx="34" cy="21" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="2"></circle></svg></div>
+<svg width="28" height="37" viewBox="0 0 24 32" style="position: absolute; right: 0; bottom: 1.25rem"><path d="M12 31s-10-10.5-10-18a10 10 0 0 1 20 0c0 7.5-10 18-10 18z" fill="#13307F" stroke="#000000" stroke-width="2"></path><circle cx="12" cy="12.5" r="3.75" fill="#FFFFFF" stroke="#000000" stroke-width="2"></circle></svg>
+<div style="position: absolute; right: 0; bottom: 0; font-size: 0.875rem; font-weight: 800; font-stretch: 112%">Your business</div>
+</div>
+<footer style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 2rem; margin-top: clamp(3rem, 6vw, 4.5rem); padding-top: 0.75rem; border-top: 2px solid #000000; font-size: 0.9375rem">
+<span>© 2026 Md Ehsan</span>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0 1.25rem">
+<a href="https://www.linkedin.com/in/md-ehsan-17954b79/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; min-height: 2.75rem; color: #000000; font-weight: 600">LinkedIn</a>
+<a href="https://github.com/Ehshan55" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; min-height: 2.75rem; color: #000000; font-weight: 600">GitHub</a>
+<a href="https://x.com/Ahshan55" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; min-height: 2.75rem; color: #000000; font-weight: 600">X (Twitter)</a>
+</div>
+</footer>
+</div>
+</section>
+
+</div>
+</body>
+</html>
